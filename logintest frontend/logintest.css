@@ -1,0 +1,18 @@
+body {
+    background-color: darkcyan;
+    color: white;
+    font-family: Arial;
+}
+
+h1 {
+    color: rgb(170, 255, 255);
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid rgb(82, 60, 209);
+    border-radius: 10px;
+    cursor: pointer;
+}
