@@ -1,0 +1,10 @@
+create database login_test;
+
+use login_test;
+
+create table usuarios (
+	id int primary key auto_increment,
+    nome varchar(70) not null,
+    email varchar(60) not null unique,
+    senha varchar(50) not null
+);
